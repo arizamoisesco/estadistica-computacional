@@ -8,6 +8,7 @@ class Coordenada:
     def mover(self, delta_x, delta_y):
         return Coordenada(self.x + delta_x + self.y + delta_y)
 
+    #Se aplica el metodo de Pitagoras
     def distancia(self, otra_coordenada):
         delta_x = self.x - otra_coordenada.x
         delta_y = self.y - otra_coordenada.x

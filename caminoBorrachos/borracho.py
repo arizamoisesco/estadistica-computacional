@@ -1,7 +1,7 @@
  
 import random
 #Creamos la clase principal de borracho
-class Borracho():
+class Borracho:
     self.nombre = nombre
 #Creamos una clase que herede de borracho
 class borracho_tradicional(Borracho):
